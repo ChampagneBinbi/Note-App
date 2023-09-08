@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    background: linear-gradient(to left, rgb(126, 19, 226), rgb(32, 233, 189));
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.heading{
+    color: #0ef0f0;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 45px;
+}
+
+.me{
+    color: rgb(223, 62, 238);
+    text-align: right;
+}
+
+.ne{
+    color: rgb(223, 62, 238);
+    text-align: left;
+}
+
+.info-text{
+    text-align: center;
+    color: rgb(0, 255, 255);
+    font-size: 40;
+}
+
+.app{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    gap: 40px;
+    justify-content: center;
+    padding: 50px;
+}
+
+.note{
+    height: 200px;
+    padding: 17px;
+    border-radius: 15px;
+    resize: none;
+    box-shadow: 0 0 3px rgba(0,0,0,.3);
+    font-size: 30px;
+    color: rgb(48, 241, 248);
+    border: none;
+    outline: none;
+    /*background-color: rgba(255,255,255,.1);*/
+    background-color: rgb(116, 16, 209);
+    box-sizing: border-box;
+}
+
+.note::placeholder{
+    color: aqua;
+    opacity: 40%;
+}
+
+.note:hover,.note:focus{
+    box-shadow: 0 0 10px aqua;
+    transition: all 400ms ease;
+}
+
+.btn{
+    height: 200px;
+    border-color: rgb(141, 35, 241);
+    background: aqua;
+    color: rgb(123, 23, 218);
+    border-radius: 15px;
+    font-size: 80px;
+    font-weight: 800px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(214, 6, 204);
+    color: rgb(43, 226, 202);
+    transition: all 400ms ease;
+}
